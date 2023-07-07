@@ -1,5 +1,6 @@
 <script lang="ts">
     import ListBox from "../lib/ListBox.svelte";
+    import "../lib/tsui-listbox.scss"
     import SimpleItemAdapter from "./SimpleItemAdapter.svelte";
     let list = ["item1", "item2", "item3", "item4","item11", "item12", "item13", "item14","item21", "item22", "item23", "item24"];
 
